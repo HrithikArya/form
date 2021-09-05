@@ -203,12 +203,21 @@ body {
 }
 
 .c-formContainer {
-  width: 180px;
-  height: 65px;
+  width: 40vw;
+  height: 6vw;
   z-index: 1;
   display: flex;
   justify-content: center;
 }
+
+
+@media (max-width:800px) {
+  .c-formContainer {
+    width: 70vw;
+    height: 10vw;
+  }
+}
+
 
 .c-welcome {
   position: absolute;
