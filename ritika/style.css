@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(backg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: Center;
+}
+
+.main {
+  display: none;
+  width: 40vw;
+  margin: 100px auto 0px auto;
+}
+
+.close {
+  float: right;
+  padding: 3px;
+}
+.main h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+}
+.register {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  font-size: 15px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+form#register {
+  margin: 30px 5vw;
+
+}
+.main label {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input#name {
+  width: 30vw;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  outline: 0;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
+}
+.btn-default {
+  width: 10vw;
+  font-size: 15px;
+  /* font-weight:500; */
+  border: 1px solid white;
+  background-color: #808080;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary {
+  width: 10vw;
+  font-size: 15px;
+  border: 1px solid white;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  float: right;
+}
+.btn-primary:hover {
+  background-color: green;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signup p {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-style: italic;
+}
+.signup_btn {
+  padding: 4px;
+  font-size: 20px;
+  border: 1px solid white;
+  background-color: slateblue;
+}
+.signup_btn:hover {
+  background-color: tomato;
+}
+
+ @media (max-width: 800px) {
+  .main {
+    width: 80vw;
+    margin: 3vh auto;
+  }
+  form#register {
+	  margin: 10vw;
+  }
+  input#name {
+    width: 60vw;
+  }
+
+  .modal-footer button {
+    margin: 0 auto;
+    width: 90px;
+  }
+
+  .signup {
+	  margin-top: 10vh;
+  }
+
+  .signup p {
+	  font-size: 3.2vh;
+  }
+} 
+
+.close {
+  visibility: hidden;
+}
+.close span {
+  visibility: visible;
+  color: whitesmoke;
+  font-size: 5vh;
+}
