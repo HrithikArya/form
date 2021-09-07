@@ -82,8 +82,11 @@ input#name {
 }
 
 .signup {
+  background-image: linear-gradient(15deg, lightgreen, rgb(237, 241,235), rgb(230, 163, 40));
   display: flex;
   flex-direction: column;
+  padding: 3vw;
+  border-radius: 2vw;
   width: 70%;
   justify-content: center;
   align-items: center;
@@ -97,10 +100,11 @@ input#name {
   font-style: italic;
 }
 .signup_btn {
-  padding: 4px;
-  font-size: 20px;
+  padding: 10px;
+  font-size: 15px;
   border: 1px solid white;
   background-color: slateblue;
+  border-radius: 4px;
 }
 .signup_btn:hover {
   background-color: tomato;
